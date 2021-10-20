@@ -1,5 +1,5 @@
-var firstInput = window.prompt("First Number: ");
-var secondInput = window.prompt("Second Number: ");
+var firstInput = console.log("First Number: ");
+var secondInput = console.log("Second Number: ");
 
 class Modifiers{
     Add(firstInput, secondInput){

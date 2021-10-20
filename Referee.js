@@ -1,14 +1,14 @@
 var Modifiers = require('./Modifiers.js');
 let operation = new Modifiers();
 
-window.prompt("1: Add ");
-window.prompt("2: Subtract ");
-window.prompt("3: Multiply ");
-window.prompt("4: Divide ");
-window.prompt("5: Cos(First Input) ");
-window.prompt("6: Sin(First Input) ");
+console.log("1: Add ");
+console.log("2: Subtract ");
+console.log("3: Multiply ");
+console.log("4: Divide ");
+console.log("5: Cos(First Input) ");
+console.log("6: Sin(First Input) ");
 
-var input = window.prompt("What operation would you like to do? (Enter Int)");
+var input = console.log("What operation would you like to do? (Enter Int)");
 switch(input){
     case 1:
         output = operation.Add();
@@ -29,4 +29,4 @@ switch(input){
         output = operation.Cos();
         break;
 }
-window.prompt(output);
+console.log(output);
