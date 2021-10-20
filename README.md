@@ -1,2 +1,2 @@
-# Calculator
-Calculator I would like to create using different branches for new capabilities
+#Calculator
+I would like to create using different branches for new capabilities
