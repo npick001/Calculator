@@ -1,0 +1,23 @@
+const { resourceLimits } = require("worker_threads");
+
+var firstInput = window.prompt("First Number: ");
+var secondInput = window.prompt("Second Number: ");
+class Modifiers{
+    function Add(firstInput, secondInput){
+       result = firstInput + secondInput;
+        return result;
+    }
+    function Subtract(firstInput, secondInput){
+       result = firstInput - secondInput;
+        return result;
+    }
+    function Multiply(firstInput, secondInput){
+       result = firstInput * secondInput; 
+        return result;
+    }
+    function Divide(firstInput, secondInput){
+        result = firstInput / secondInput;
+        return result;
+    }
+} 
+module.exports = Modifiers;
